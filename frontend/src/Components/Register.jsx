@@ -7,7 +7,7 @@ import '../styles/Register.css'
 
 
 async function registerUser(data) {
-    const res = await fetch('https://authentication-system-deployment-api.vercel.app/api/auth/register',{
+    const res = await fetch('https://authentication-app-deployment-api.vercel.app/api/auth/register',{
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
