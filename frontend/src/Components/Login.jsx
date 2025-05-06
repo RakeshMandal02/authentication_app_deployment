@@ -6,7 +6,7 @@ import { decodeJwt } from '../utils/jwt'
 import '../styles/Login.css'
 
 async function loginUser(data) {
- const res = await fetch('https://authentication-system-deployment-api.vercel.app/api/auth/login', {
+ const res = await fetch('https://authentication-app-deployment-api.vercel.app/api/auth/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data),
